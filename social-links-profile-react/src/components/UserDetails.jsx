@@ -1,21 +1,24 @@
-import React from "react"
-import "./UserDetails.css"
-const UserDetails = () => {
-    return (
+import React, { useState, useEffect } from "react";
+import "./UserDetails.css";
 
-        <div className = "contenedor1">
-            <div className = "cabeza">
-                <img
-                    className="imagen"
-                    src="./avatar-jessica.jpeg"
-                    alt="image not found"
-                ></img>
-            </div>
-        <h1 className = "nombre">Jessica Randall</h1>
-        <h2 className = "nacionalidad">London, United Kingdom</h2>
-        <p className = "descripcion">"Front-end developer and avid reader."</p>
-        </div>
-    );
+const UserDetails = (props) => {
+  const [user, setUser] = useState({});
+  setUser(props.user);
+
+  return (
+    <div className="contenedor1">
+      <div className="cabeza">
+        <img
+          className="imagen"
+          src={user.avatar}
+          alt={`avatar de ${user.name}`}
+        ></img>
+      </div>
+      <h1 className="nombre">{user.name}</h1>
+      <h2 className="nacionalidad">{user.location}</h2>
+      <p className="descripcion">{user.description}</p>
+    </div>
+  );
 };
 
 export default UserDetails;
