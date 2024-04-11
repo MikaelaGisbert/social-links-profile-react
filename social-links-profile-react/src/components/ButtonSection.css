@@ -1,0 +1,37 @@
+.contenedor2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 190px;
+    width: 190px;
+    margin-top: 10px;
+  }
+  .botones {
+    background-color: var(--Grey);
+    font-family: 'Inter';
+    color: var(--White);
+    width: 100%;
+    padding: 9px;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    /* cursor: pointer; */
+    font-size: 11px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+  }
+  
+  .botones:hover {
+    background-color: var(--Green); 
+    color: var(--OffBlack);
+  }
+
+  .inter-Negrilla {
+    font-family: "InterNegrilla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: Bold;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  
