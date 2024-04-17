@@ -6,12 +6,13 @@ import "./Card.css";
 
 function Card(props) {
   const user = props.user;
-  console.log(user);
+  // console.log(user);
+  const socialLinks = user["socialLinks"]
   return (
-    <div className="contenedorDinamico">
-      {/* <UserDetails user = {user}/> */}
-      <ButtonSection />
-    </div>
+      <div className="contenedorDinamico">
+        <UserDetails user={user} />
+        <ButtonSection socialLinks={socialLinks} />
+      </div>
   );
 }
 

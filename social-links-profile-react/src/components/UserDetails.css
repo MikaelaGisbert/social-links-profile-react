@@ -1,20 +1,20 @@
 .contenedor1{
   width: 200px;
-  height: 180px;
+  height: 190px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  margin-top: -10px;
 }
 .cabeza {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px; 
-    width: 70px;
-    margin-left: 55px;
+    height: 80px; 
+    width: 80px;
+    margin-left: 65px;
+    margin-right: 65px;
   }
   .imagen {
     width: 100%;
@@ -26,22 +26,22 @@
 .nombre{
     color: var(--White);
     /* font-family: 'Inter'; */
-    font-size:medium;
-    margin-top: 8px;
+    font-size:18px;
+    margin-top: 16px;
     margin-bottom: 0px;
     /* font-weight: 700; */
   }
 .nacionalidad{
     color: var(--Green);
     margin: 5px;
-    font-size: x-small;
+    font-size: 12px;
   }
 .descripcion{
     color: var(--White);
     font-family: 'Inter';
-    font-size: x-small;
-    margin-top: 6px;
-    margin-bottom: 5px;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .inter-Normal {

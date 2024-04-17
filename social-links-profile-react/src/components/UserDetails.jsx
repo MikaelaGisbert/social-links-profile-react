@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./UserDetails.css";
 
-const UserDetails = (props) => {
-  const [user, setUser] = useState({});
-  setUser(props.user);
+// const UserDetails = (props) => {
+//   const [user, setUser] = useState({});
+//   setUser(props.user);
+
+const UserDetails = ({user}) => {
+  // const { user } = props;
 
   return (
     <div className="contenedor1">
@@ -18,7 +21,7 @@ const UserDetails = (props) => {
       <h2 className="nacionalidad">{user.location}</h2>
       <p className="descripcion">{user.description}</p>
     </div>
-  );
+  )
 };
 
 export default UserDetails;
