@@ -1,18 +1,19 @@
 .contenedor1{
-  width: 240px;
-  height: 280px;
+  width: 450px;
+  height: 400px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  margin-top: 0;
 }
 .cabeza {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; 
-    width: 100px;
+    height: 270px; 
+    width: 270px;
     margin-left: 70px;
     margin-right: 65px;
   }
@@ -20,7 +21,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 50%;   
+    border-radius: 5%;
   }
   
 .nombre{
@@ -32,18 +33,18 @@
     /* font-weight: 700; */
   }
 .genero{
-    color: turquoise;
+    color: var(--White);
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 14px;
   }
 .estado{
-    color: greenyellow;
+    color:var(--Green);
     margin: 5px;
     font-size: 14px;
   }
 .especie{
-    color: gold;
+    color:var(--White);
     font-size: 14px;
     margin: 0px;
   }
