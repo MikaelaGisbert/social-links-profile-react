@@ -1,0 +1,51 @@
+.contenedorEpisodes{
+/* border-color: var(--White);
+border-style:dashed; */
+width: 450px;
+height: 240px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.Episodes{
+  background-color: var(--Green);
+  border-style:solid;
+  border-color: var(--DarkGrey);
+  border-radius: 5px;
+  width: 100px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.title{
+  color:var(--White);
+  /* font-family: 'Inter'; */
+  font-size:18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+  margin-right: 150px;
+  /* font-weight: 700; */
+}
+.nameEp{
+  color:var(--DarkGrey);
+  /* font-family: 'Inter'; */
+  font-size:14px;
+  margin: 2px;
+  /* margin-top: 16px;
+  margin-bottom: 0px; */
+  /* font-weight: 700; */
+}
+.airDate{
+  color: var(--Black);
+  margin-top: 18px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}

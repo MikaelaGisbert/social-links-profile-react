@@ -1,0 +1,14 @@
+.contenedorDinamico {
+  background-color: var(--DarkGrey);
+  height: 470px;
+  width: 290px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
