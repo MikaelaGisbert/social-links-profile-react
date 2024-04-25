@@ -12,7 +12,12 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+.Characters{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .botones {
   background-color: var(--Grey);
   font-family: 'Inter';

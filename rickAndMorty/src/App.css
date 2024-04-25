@@ -1,4 +1,10 @@
 
+.Characters{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
   .inter-ligero {
     font-family: "InterLigero", sans-serif;
     font-optical-sizing: auto;

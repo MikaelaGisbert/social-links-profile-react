@@ -1,0 +1,54 @@
+.contenedorP1{
+    width: 240px;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .cabeza1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px; 
+      width: 100px;
+      margin-left: 70px;
+      margin-right: 65px;
+    }
+    .imagen1 {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 50%;   
+    }
+    
+  .nombreP{
+      color:var(--White);
+      /* font-family: 'Inter'; */
+      font-size:22px;
+      margin-top: 16px;
+      margin-bottom: 0px;
+      /* font-weight: 700; */
+    }
+  .generoP{
+      color: var(--White);
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-size: 14px;
+    }
+  .estadoP{
+      color: var(--Green);
+      margin: 5px;
+      font-size: 14px;
+    }
+  .especieP{
+      color: var(--White);
+      font-size: 14px;
+      margin: 0px;
+    }
+  
+    .inter-Normal {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+    }

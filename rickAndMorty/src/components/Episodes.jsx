@@ -1,25 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Episodes.css";
 
-const Episodes = () => {
-  const [episodes, setEpisodes] = useState([]);
-
-  const fetchData = async () => {
-    try {
-      const response = await fetch("https://rickandmortyapi.com/api/episode");
-      const data = await response.json();
-      const cuatroEpisodes = data.results.slice(0, 4); 
-      setEpisodes(cuatroEpisodes);
-      console.log(cuatroEpisodes);
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
+const Episodes = ({ episodes }) => { 
   return (
     <div className="contenedorEpisodes">
       <h1 className="title">Episodes</h1>
